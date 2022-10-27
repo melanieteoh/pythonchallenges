@@ -1,0 +1,7 @@
+my_hour = int(input("Enter hour."))
+my_mins = int(input("Enter minutes."))
+morn_aft = input("a for am or p for pm")
+if morn_aft == "p":
+  my_hour = my_hour + 12
+
+print("Time:", my_hour, ":" ,my_mins)
